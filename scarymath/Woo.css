@@ -1,0 +1,25 @@
+input {
+	margin: 1em;
+}
+
+body {
+	background: white url(Smile.gif) no-repeat;
+}
+
+#scary{
+	background: white url(Scary.gif) no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border: solid 1px;
+	padding: 2px
+}
+
+#power {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.8em;
+}
+	
