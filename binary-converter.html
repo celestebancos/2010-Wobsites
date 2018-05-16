@@ -1,20 +1,19 @@
 <html>
-<head>
-<title> Binary Converter </title>
-</head>
-<body>
-<script type="text/javascript">
-b=prompt("Enter a binary number: ", "");
-i = 0;
-d = 0;
-while (b > 0) 
-{
-document.write(b + d + "\n");
-d = d + (b % 2) * 2 ^ i;
-i = i + 1;
-b = (b - (b % 2)) / 2;
-}
-document.write(d);
-</script>
-</body>
+	<head>
+		<title> Binary Converter </title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			b=prompt("Enter a binary number: ", "");
+			i = 0;
+			d = 0;
+			while (b > 0){
+				document.write(b + d + "<br>");
+				d = d + (b % 2) * 2 ^ i;
+				i = i + 1;
+				b = (b - (b % 2)) / 2;
+			}
+			document.write(d);
+		</script>
+	</body>
 </html>
